@@ -21,7 +21,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <StylesProvider>
           <Header />
-        {/* 
+        {/*
           {
               (!pathname || PAGES_WITH_MUI_HEADER.includes(pathname))?
                   <MainHeader/>
